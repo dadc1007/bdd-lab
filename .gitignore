@@ -1,0 +1,31 @@
+# Maven / Java build outputs
+/target/
+*.class
+*.jar
+*.war
+*.ear
+
+# Maven wrappers and logs
+.mvn/wrapper/maven-wrapper.jar
+.mvn/timing.properties
+*.log
+
+# IDE and editor files
+.idea/
+*.iml
+.project
+.classpath
+.settings/
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Scala Metals / Bloop
+.bloop/
+.metals/
+
+# Test reports and temporary outputs
+*.tmp
+*.swp
